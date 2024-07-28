@@ -1,17 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Apple Watch</title>
 </head>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  rel="stylesheet">
 
 <!-- Stylesheet -->
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/styles.css">
+
 <body>
+
+  <!-- Site-header -->
+  <header class="site-header">
+    <div class="site-header-container container">
+      <a class="site-header-logo" href="#">
+        <img class="site-header-logo-img" src="img/apple-simble.svg" alt="logo" width="35" height="42">
+      </a>
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">Home</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">About</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">Offers</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">Services</a>
+          </li>
+        </ul>
+      </nav>
+
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="GET">
+        <input class="search-form-input" type="search" name="search" placeholder="How can we help you?"
+          aria-label="Search" required>
+      </form>
+
+
+    </div>
+  </header>
+
+  <!-- MAIN-CONTENT -->
+  <div class="main-content">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="lead-cta">
+          <h2 class="lead-cta-heading">Freedom calls.</h2>
+          <p class="lead-cta-text">Answer a call from your surfboard. Amessage. Stream your favorite songs on your run.
+            Andall whiyour phone behind. Introducing Apple Watch 3 with cellular. Nothe freedom to go with just your
+          </p>
+          <a class="button" href="#">Watch the keynote</a>
+        </div>
+      </div>
+    </section>
+
+    <!--FEATURES -->
+    <section class="features">
+      <div class="container">
+        <!-- <h2>Features</h2> -->
+        <ul class="features-list">
+          <li class="features-item">
+            <h3 class="features-heading">Know your runs. In and out.</h3>
+            <p class="features-text">Train smarter with more in-run stats. Want to compare atoyour last five?Just swipe
+              left. Mark splits by selecting pause or using gestuliketapping the screen ordouble-clicking the side
+              button. And get a full post-run reincluding elevation.</p>
+            <hr class="features-divider">
+          </li>
+          <li class="features-item">
+            <h3 class="features-heading">Run in good spirits.</h3>
+            <p class="features-text">A little support can go a long way. You can recencouragingemoji fromfriends. And
+              reminders triggered by your friends’ shared activthe currentweather, or your ownhistory give you
+              everyreason to run.
+            </p>
+            <hr class="features-divider">
+          </li>
+          <li class="features-item">
+            <h3 class="features-heading">Just do it. Sunday.</h3>
+            <p class="features-text">Run every Sunday and see how long you can keep your streakalFuel your runwith
+              exclusive Nike+ Run Club playlists on Apple Music.</p>
+            <a class="lined-link" href="#">Learn more</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- PROMO -->
+    <section class="promo">
+      <div class="promo-container container">
+        <div class="lead-cta">
+          <h2 class="lead-cta-heading">Nike Sport Band. <br>Light. Flexible. <br>Breathable..
+          </h2>
+          <p class="lead-cta-text">Made from the same durable, lightweight fluoroelastomer as the original Apple Watch
+            Sport Band, the Nike Sport Band reduces weight and improves ventilation via row after row of
+            compression-molded perforations.
+          </p>
+          <a class="button" href="#">Buy now</a>
+        </div>
+
+        <img class="promo-img" src="img/watch-in-hand.jpg" alt="handwatch-img" width="400" height="600"
+          srcset="img/watch-in-hand.jpg 1x, img/watch-in-hand@2x.jpg 2x">
+
+      </div>
+    </section>
+
+    <!-- RUNNERS -->
+    <section class="runners">
+      <div class="container">
+        <div class="runners-lead-cta lead-cta lead-cta-white">
+          <h2 class="lead-cta-heading">Take control of your health.
+          </h2>
+          <p class="lead-cta-text">With built-in GPS and altimeter, Apple Watch Nike+ has all the features to help you
+            take your run to the next level. You can even pair your watch wirelessly with compatible gym equipment. And
+            it’s swimproof, so you can take a post-run dip in the pool.
+          </p>
+          <a class="button" href="#">Explore features</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
 
 
   <script src="css/js/main.js"></script>
 </body>
+
 </html>
